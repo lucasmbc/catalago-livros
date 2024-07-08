@@ -1,0 +1,11 @@
+{
+    "livros": [
+        {
+            "titulo": "Código Limpo",
+            "autor": "Robert C. Martin",
+            "genero": "Programação",
+            "anoPublicacao": 2009,
+            "avaliacao": "Livro muito bom"
+        }
+    ]
+}

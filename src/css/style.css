@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Kanit", sans-serif;
+    font-weight: 300;
+}
+
+.container {
+    height: 100vh;
+    /* background-color: #f0f0f0; */
+    background-color: #ebf4f6;
+}
+
+header h1 {
+    background-color: #071952;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    font-family: "Kanit", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.container-form {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+}
+
+.container-form form label {
+    font-weight: bold;
+}
+
+.container-form form input {
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+#btn-submit {
+    display: block;
+    margin: 10px auto;
+    padding: 5px 20px;
+    background-color: #1919d4;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+#btn-submit:hover {
+    background-color: #2e2ed3;
+}
+
+.catalog {
+    display: grid;
+    grid-template-columns: 300px 300px 300px 300px;
+    gap: 5px;
+    justify-content: center;
+}
+
+.item {
+    text-align: center;
+    background-color: white;
+    padding: 10px 0;
+    border-radius: 10px;
+}
+
+.catalog .item h2 {
+    color: #088395;
+    font-weight: bold;
+}
